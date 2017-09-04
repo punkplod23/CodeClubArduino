@@ -1,4 +1,4 @@
-# Code Club Rhwibina Robitics
+# Code Club Rhwibina Robotics
 Arduino Lesson plans
 
 # Lesson 1 topics
