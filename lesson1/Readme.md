@@ -21,4 +21,25 @@ An Arduino is a microcontroller, Arduino are coded in c very similar to the micr
 3. C was invented in 1974 by Dennis Ritchie.
 4. Dennis Ritchie passed away in the zame year as Steve Jobs, There would not have been a Steve Jobs without Dennis Ritchie.
 
+Micro Controllers are everywhere to home appliances to industrial machinaey to traffic lights.
 
+# What is Serial Baud
+
+1. The baud rate is the rate at which information is transferred in a communication channel. In the serial port context, "9600 baud" means that the serial port is capable of transferring a maximum of 9600 bits per second
+2. In essecnce its how information is sent and received.
+
+# Objective
+Over the next few lessons we are going to leane how to use the Arduino to do a variety of things.
+1. Flash a light.
+2. Read sensor input.
+3. Spin a motor.
+4. Build a autonmouse obstacle avoiding robot like here.https://youtu.be/xrPiDkLb_2M
+
+# What is the Arduino IDE.
+1. IDE is an abbreviation for integrated development enviroment its the program we code in.
+2. In Arduino our programs are reffered to as sketches. I think its a silly name aswell.
+
+# Installing the Arduino IDE.
+1. In the raspberry PI open the terminal.
+   Shortcut(Ctrl+alt+t)
+2. Type in ```sudo apt-get install arduino```
