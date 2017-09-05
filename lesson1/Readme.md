@@ -50,5 +50,16 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 <img src='http://tinkersphere.com/1398-thickbox_default/pro-micro-5v-16mhz-arduino-compatible-atmega32u4-breakout.jpg' />
 
 # Using Arduino
-1. Open Arduino should be in programming.
+1. Open Arduino should be in the programming menu.
 <img src='https://i2.wp.com/solidutopia.com/fr/wp-content/uploads/sites/5/2014/03/Arduino-board-choice.png?resize=614%2C597' />
+2. First thing we have to do is setup the board we are using with the ide.
+3. There are 2 options get the ide to detevt the board, not recommended it ussually gets this incorrectly.
+4. So lets just select this board (get name of board.
+
+# Our first Sketch
+1. We are now going to use the serial monitor back amd forth to create a simple feedback loop over serial.
+2. You will send it a number using the Serial console the arduino will start counting that number back to you.
+3. Pay attentiom to the blue light on the arduino.
+
+# Breaboard
+1. A Breadboard os away of prototyping a circuit.
