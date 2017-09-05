@@ -62,4 +62,12 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 3. Pay attentiom to the blue light on the arduino.
 
 # Breaboard
-1. A Breadboard os away of prototyping a circuit.
+1. A Breadboard is away of quickly prototyping a circuit that does not need to be soldered.
+2. We can connect a vareity of components to a breadboard.
+3. We always need to regulate power to these components else they will be damaged or blow up.
+<img src='https://images-na.ssl-images-amazon.com/images/I/71CBqkJtZvL._SL1280_.jpg'/>
+
+# Lets Flash an LED
+1. Firstly lets create a circuit like below.
+<img src='http://idledev.com/wp-content/uploads/2015/03/arduino-blink-wiring.jpg'>
+2. Components Required Resistor, Led, Breadboard and Arduino.
