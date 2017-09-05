@@ -45,6 +45,10 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 2. Type in ```sudo apt-get install arduino```
 3. Wait for Install.
 
+# Arduino Micro board.
+1. We will be using the Arduino Mico board. A break down ot its pin setup is below.
+<img src='http://tinkersphere.com/1398-thickbox_default/pro-micro-5v-16mhz-arduino-compatible-atmega32u4-breakout.jpg' />
+
 # Using Arduino
 1. Open Arduino should be in programming.
 ![arduino editor] (https://i2.wp.com/solidutopia.com/fr/wp-content/uploads/sites/5/2014/03/Arduino-board-choice.png?resize=614%2C597 "Arduino Editor")
