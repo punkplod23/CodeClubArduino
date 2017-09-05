@@ -51,4 +51,4 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 
 # Using Arduino
 1. Open Arduino should be in programming.
-![arduino editor] (https://i2.wp.com/solidutopia.com/fr/wp-content/uploads/sites/5/2014/03/Arduino-board-choice.png?resize=614%2C597 "Arduino Editor")
+<img src='https://i2.wp.com/solidutopia.com/fr/wp-content/uploads/sites/5/2014/03/Arduino-board-choice.png?resize=614%2C597' /!>
