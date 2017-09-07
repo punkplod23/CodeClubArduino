@@ -51,10 +51,10 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 
 # Using Arduino
 1. Open Arduino should be in the programming menu.
-<img src='https://i2.wp.com/solidutopia.com/fr/wp-content/uploads/sites/5/2014/03/Arduino-board-choice.png?resize=614%2C597' />
+1. <img src='https://i2.wp.com/solidutopia.com/fr/wp-content/uploads/sites/5/2014/03/Arduino-board-choice.png?resize=614%2C597' />
 2. First thing we have to do is setup the board we are using with the ide.
 3. There are 2 options get the ide to detect the board, not recommended it ussually gets this incorrectly.
-4. So lets just select this board, in tools something should say board: hover over this the select "Arduino Leonardo"/
+4. So lets just select this board, in tools something should say board: hover over this the select "Arduino Leonardo"
 5. The port should show autmaticly.
 
 
