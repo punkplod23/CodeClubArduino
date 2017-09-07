@@ -105,10 +105,12 @@ void loop() {
     }
 }
 ```
-5. Click the tick icon this verifies the code has know bugs.
+5. Click the tick icon this verifies the code has no bugs.
 6. Click arrow right icon this sends it to the device.
 7. Now in the tools Select serial monitor
-8. A new screen should appear <img src='https://i.pinimg.com/736x/0f/22/f4/0f22f4ec352d43f49af08db2975631a6.jpg' />
+8. A new screen should appear 
+<img src='https://i.pinimg.com/736x/0f/22/f4/0f22f4ec352d43f49af08db2975631a6.jpg' />
+9. Where you can type in some text in this screen type in some numbers and hit send.
 
 # LESSON 2 Start Notes
 
