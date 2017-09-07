@@ -2,7 +2,7 @@
 
 # What is a micro-controller
 A micro controller is a computer embedded on a single chip soley for the purpose of handling IO (input/Output). With pin outs and ins.
-<img src='http://d1gsvnjtkwr6dd.cloudfront.net/large/IC-ATMEGA168A-PU_LRG.jpg' />
+<img src='http://d1gsvnjtkwr6dd.cloudfront.net/large/IC-ATMEGA168A-PU_LRG.jpg' width='200px' />
 
 # What is an Arduino?
 An Arduino is a microcontroller, Arduino are coded in c very similar to the microbit.
@@ -16,7 +16,7 @@ An Arduino is a microcontroller, Arduino are coded in c very similar to the micr
 2. BBC microbits are £13 per board.
 3. You will sooner or later blow a micro controller destroying £2 not an issue destorying £13 scary.
 
-# What is C language.
+# What is the C language.
 1. A C language variant is used in arduino.
 2. C is the godfarther of modern day programming languages.
 3. C has a little more definition in opening and closing statements.
@@ -25,7 +25,7 @@ b. functions start with a return type (string functionname(){ return "hello worl
 c. Wiggly lines () {} these are used a lot more to close statements unlike python which tends to use:
 d. Line spacing not important though for sanity borrow something from python.
 4. C was invented in 1974 by Dennis Ritchie.
-5. Dennis Ritchie passed away in the zame year as Steve Jobs, There would not have been a Steve Jobs without Dennis Ritchie.
+5. Dennis Ritchie passed away in the zame year as Steve Jobs, There would not have been a Steve Jobs without Dennis Ritchie more people know tha name Steve Jobs than Dennis Ritchie.
 
 Micro Controllers are everywhere to home appliances to industrial machinaey to traffic lights.
 
