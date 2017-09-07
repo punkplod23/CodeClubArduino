@@ -53,14 +53,16 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 1. Open Arduino should be in the programming menu.
 <img src='https://i2.wp.com/solidutopia.com/fr/wp-content/uploads/sites/5/2014/03/Arduino-board-choice.png?resize=614%2C597' />
 2. First thing we have to do is setup the board we are using with the ide.
-3. There are 2 options get the ide to detevt the board, not recommended it ussually gets this incorrectly.
-4. So lets just select this board (get name of board.
+3. There are 2 options get the ide to detect the board, not recommended it ussually gets this incorrectly.
+4. So lets just select this board, in tools something should say board: hover over this the select "Arduino Leonardo"/
+5. The port should show autmaticly.
+
 
 # Our first Sketch
 1. We are now going to use the serial monitor back amd forth to create a simple feedback loop over serial.
 2. You will send it a number using the Serial console the arduino will start counting that number back to you.
 3. Pay attentiom to the blue light on the arduino.
-4. Our Code
+4. Our Code copy below and past it into the editor.
 
 ```
 //We use int to define a variable
@@ -103,6 +105,10 @@ void loop() {
     }
 }
 ```
+5. Click the tick icon this verifies the code has know bugs.
+6. Click arrow right icon this sends it to the device.
+7. Now in the tools Select serial monitor
+8. A new screen should appear <img src='https://i.pinimg.com/736x/0f/22/f4/0f22f4ec352d43f49af08db2975631a6.jpg' />
 
 # LESSON 2 Start Notes
 
