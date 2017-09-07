@@ -60,6 +60,41 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 1. We are now going to use the serial monitor back amd forth to create a simple feedback loop over serial.
 2. You will send it a number using the Serial console the arduino will start counting that number back to you.
 3. Pay attentiom to the blue light on the arduino.
+4. Our Code
+
+'''// Buffer to store incoming commands from serial port
+int number_total = 0;
+#define number_to_add 10
+
+void setup() {
+    Serial.begin(9600);
+    Serial.println("Serial conection started, waiting for instructions...");
+}
+
+void loop() {
+    while (Serial.available() > 0)
+    {
+      
+        int number = Serial.parseInt();
+        number_total += number; 
+       
+        // Process message when new line character is recieved
+        if (number != 0)
+        {
+            Serial.print("Calculate: ");
+            Serial.print(number_total);
+            Serial.print(" + ");
+            Serial.print(number_to_add);
+            Serial.print(" = ");
+            Serial.print(number_total+number_to_add);
+            Serial.print("\n");
+            number_total = 0;
+
+        }
+    }
+}'''
+
+# LESSON 2 Start Notes
 
 # Breaboard
 1. A Breadboard is away of quickly prototyping a circuit that does not need to be soldered.
