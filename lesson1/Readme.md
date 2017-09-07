@@ -109,8 +109,17 @@ void loop() {
 6. Click arrow right icon this sends it to the device.
 7. Now in the tools Select serial monitor
 8. A new screen should appear 
-<img src='https://i.pinimg.com/736x/0f/22/f4/0f22f4ec352d43f49af08db2975631a6.jpg' />
+9. <img src='https://i.pinimg.com/736x/0f/22/f4/0f22f4ec352d43f49af08db2975631a6.jpg' />
+10. Change the bottom 3 select options to both nl & cr, 9600 baud (We specified this baud rate earlier)
 9. Where you can type in some text in this screen type in some numbers and hit send.
+10. Did it add 10 to the number you entered.
+11. We created a small calculator.
+
+# Challenges.
+1. Can you change the baud rate and view the output
+2. Can you change the number?
+3. Can you get this to divide/Substract/ a number
+4. Can you get this script to output text. (Look as string and char casting in Arduino)
 
 # LESSON 2 Start Notes
 
