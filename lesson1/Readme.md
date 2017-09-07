@@ -63,24 +63,34 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 4. Our Code
 
 ```
+//We use int to define a variable
 int number_total = 0;
+//Define means this is number_to_add is always 10
 #define number_to_add 10
 
+//Setup is a function in arduino for initialisation
 void setup() {
+    //Serial is for getting feedback from the device
+    //9600 is the baud rate we are using
     Serial.begin(9600);
+    //Serial print outputs to the serial monitor
     Serial.println("Serial conection started, waiting for instructions...");
 }
 
+//Loop function is somthing that runs forever.
+//Void means a return type in this case nothing
 void loop() {
+    //Loop while the serial is available
     while (Serial.available() > 0)
     {
-      
+        //Take Serial input and cast it to number
         int number = Serial.parseInt();
         number_total += number; 
-       
-        // Process message when new line character is recieved
+        
+        // Process number if not 0
         if (number != 0)
         {
+            //Output message to Serial
             Serial.print("Calculate: ");
             Serial.print(number_total);
             Serial.print(" + ");
@@ -89,7 +99,6 @@ void loop() {
             Serial.print(number_total+number_to_add);
             Serial.print("\n");
             number_total = 0;
-
         }
     }
 }
