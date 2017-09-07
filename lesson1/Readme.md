@@ -62,7 +62,7 @@ Over the next few lessons we are going to leane how to use the Arduino to do a v
 3. Pay attentiom to the blue light on the arduino.
 4. Our Code
 
-'''// Buffer to store incoming commands from serial port
+```
 int number_total = 0;
 #define number_to_add 10
 
@@ -92,7 +92,8 @@ void loop() {
 
         }
     }
-}'''
+}
+```
 
 # LESSON 2 Start Notes
 
