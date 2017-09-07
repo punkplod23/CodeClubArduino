@@ -1,7 +1,8 @@
 # Lesson 1
 
 # What is a micro-controller
-A is a computer embedded on a single chip soley for the purpose of handling IO (input/Output). With pin outs and ins.
+A micro controller is a computer embedded on a single chip soley for the purpose of handling IO (input/Output). With pin outs and ins.
+<img src='http://d1gsvnjtkwr6dd.cloudfront.net/large/IC-ATMEGA168A-PU_LRG.jpg' />
 
 # What is an Arduino?
 An Arduino is a microcontroller, Arduino are coded in c very similar to the microbit.
