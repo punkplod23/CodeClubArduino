@@ -2,7 +2,7 @@
 Today we are going to build a circuit for controlling traffic lights. But its not going to work correctly to start with because we are going to use 3 different types of reisitor.
 
 # What is a resistor
-Resistors are used to reduce current flow, 
+Resistors are used to reduce current flow, sometimes when we supply current (power) to a component we do not want to introduce to much current else it stands the chance of going bang/pop/fizz.
 <img src="https://openclipart.org/download/276048/resistor.svg" alt="resistor" />
 
 # Sketch for Today 
