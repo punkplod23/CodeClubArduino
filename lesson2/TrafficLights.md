@@ -15,6 +15,9 @@ Resistors are used to reduce current flow, sometimes when we supply current (pow
 Different resistors resist the flow of currently this you can see by the diagram below.
 <img src="https://www.digikey.com/-/media/Images/Marketing/Resources/Calculators/resistor-color-chart.jpg?la=en-US&ts=72364a89-2139-476a-8a54-8d78dacd29ff" />
 
+# Circuit Diagram
+(Use http://fritzing.org/download/?donation=0) to do this
+
 # Sketch for Today 
 ```
 const int buttonPin = 2; 
