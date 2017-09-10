@@ -1,7 +1,6 @@
 # Traffic Lights
 
-'''
-
+```
 int green = 10;
 int yellow = 16;
 int red = 18;
@@ -29,4 +28,5 @@ void loop() {
   digitalWrite(red, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);  
   
-}''''
+}
+```
