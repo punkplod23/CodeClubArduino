@@ -1,5 +1,8 @@
 # Traffic Lights
+Today we are going to build a traffic light.
 
+# Sketch for Today 
+(Note include button for start reset)
 ```
 int green = 10;
 int yellow = 16;
