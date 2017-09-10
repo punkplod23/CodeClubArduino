@@ -1,5 +1,9 @@
 # Traffic Lights
-Today we are going to build a traffic light.
+Today we are going to build a circuit for controlling traffic lights. But its not going to work correctly to start with because we are going to use 3 different types of reisitor.
+
+# What is a resistor
+Resistors are used to reduce current flow, 
+<img src="https://openclipart.org/download/276048/resistor.svg" alt="resistor" />
 
 # Sketch for Today 
 (Note include button for start reset)
