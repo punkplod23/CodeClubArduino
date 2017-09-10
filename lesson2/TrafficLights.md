@@ -16,11 +16,12 @@ Different resistors resist the flow of currently this you can see by the diagram
 <img src="https://www.digikey.com/-/media/Images/Marketing/Resources/Calculators/resistor-color-chart.jpg?la=en-US&ts=72364a89-2139-476a-8a54-8d78dacd29ff" />
 
 # Sketch for Today 
-(Note include button for start reset)
 ```
+const int buttonPin = 2; 
 int green = 10;
 int yellow = 16;
 int red = 18;
+int button_pressed = 0;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
@@ -28,14 +29,21 @@ void setup() {
   pinMode(green, OUTPUT);
   pinMode(yellow, OUTPUT);
   pinMode(red, OUTPUT);  
+  pinMode(buttonPin, INPUT);
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(green, HIGH);   // turn the LED on (HIGH is the voltage level)
+  button_pressed = digitalRead(buttonPin);
+  if (button_pressed == HIGH) {
+    digitalWrite(green, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(1000);                       // wait for a second
+  }else{
+    digitalWrite(green, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
   digitalWrite(green, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  delay(1000);   
+                    // wait for a second
   digitalWrite(yellow, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
   digitalWrite(yellow, LOW);    // turn the LED off by making the voltage LOW
@@ -44,6 +52,11 @@ void loop() {
   delay(1000);                       // wait for a second
   digitalWrite(red, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);  
+  button_press = 0;
+  
+  }
+
+
   
 }
 ```
