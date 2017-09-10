@@ -1,5 +1,7 @@
 # Traffic Lights
 Today we are going to build a circuit for controlling traffic lights. But its not going to work correctly to start with because we are going to use 3 different types of reisitor.
+<img src="http://beno.org.uk/trafficlight/o9.JPG" />
+
 
 # What we will be using today
 1. 3 different varying resistor types
