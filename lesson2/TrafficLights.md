@@ -16,7 +16,7 @@ Different resistors resist the flow of currently this you can see by the diagram
 <img src="https://www.digikey.com/-/media/Images/Marketing/Resources/Calculators/resistor-color-chart.jpg?la=en-US&ts=72364a89-2139-476a-8a54-8d78dacd29ff" />
 
 # Circuit Diagram
-![GitHub Logo](/CodeClubArduino/lesson2/traffic-light.png)
+![Circuit](traffic-light.png)
 <img src='https://github.com/punkplod23' />
 
 # Sketch for Today 
