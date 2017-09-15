@@ -20,28 +20,84 @@ Different resistors resist the flow of currently this you can see by the diagram
 
 # Sketch for Today 
 ```
-const int buttonPin = 2; 
+const int buttonPin = 21; 
+#define BUTTON_PIN        21  // Button
+
+#define LONGPRESS_LEN    25  // Min nr of loops for a long press
+#define DELAY            20  // Delay per loop in ms
 int green = 10;
 int yellow = 16;
 int red = 18;
 int button_pressed = 0;
+int pressed = 0;
+
+enum { EV_NONE=0, EV_SHORTPRESS, EV_LONGPRESS };
+
+boolean button_was_pressed; // previous state
+int button_pressed_counter; // press running duration
 
 // the setup function runs once when you press reset or power the board
 void setup() {
+  Serial.begin(57600);
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(green, OUTPUT);
-  pinMode(yellow, OUTPUT);
   pinMode(red, OUTPUT);  
-  pinMode(buttonPin, INPUT);
+  pinMode(BUTTON_PIN, INPUT);
+  digitalWrite(BUTTON_PIN, HIGH); // pull-up
+  button_was_pressed = false;
+  button_pressed_counter = 0;
+}
+
+int handle_button()
+{
+  int event;
+  int button_now_pressed = !digitalRead(BUTTON_PIN); // pin low -> pressed
+
+  if (!button_now_pressed && button_was_pressed) {
+    if (button_pressed_counter < LONGPRESS_LEN)
+      event = EV_SHORTPRESS;
+    else
+      event = EV_LONGPRESS;
+  }
+  else
+    event = EV_NONE;
+
+  if (button_now_pressed)
+    ++button_pressed_counter;
+  else
+    button_pressed_counter = 0;
+
+  button_was_pressed = button_now_pressed;
+  return event;
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  button_pressed = digitalRead(buttonPin);
-  if (button_pressed == HIGH) {
+   // handle button
+  boolean event = handle_button();
+
+  // do other things
+  switch (event) {
+    case EV_NONE:
+      Serial.print(".");
+      break;
+    case EV_SHORTPRESS:
+      Serial.print("S");
+      pressed = 1;
+      break;
+    case EV_LONGPRESS:
+      Serial.print("L");
+      break;
+  }
+
+      Serial.write((button_pressed ?0  :1));
+  if (pressed == 0) {
+    
     digitalWrite(green, HIGH);   // turn the LED on (HIGH is the voltage level)
     delay(1000);                       // wait for a second
+   
   }else{
+    
     digitalWrite(green, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
   digitalWrite(green, LOW);    // turn the LED off by making the voltage LOW
@@ -55,11 +111,8 @@ void loop() {
   delay(1000);                       // wait for a second
   digitalWrite(red, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);  
-  button_press = 0;
+  pressed = 0;
   
-  }
-
-
-  
+  } 
 }
 ```
