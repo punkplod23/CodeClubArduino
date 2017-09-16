@@ -1,19 +1,32 @@
 # Code Club Rhwibina Robotics
 Arduino Lesson plans
 
-# Lesson 1 topics
-1. Serial baud
-2. Bread boards
-3. C
-3. Components.
-- Led
-- Resistor ohms law.
+# Lesson 1 Introduction to Arduino
+Concepts
+1. Arduino IDE
+2. C
+3. Serial baud
+
+Components:
+- Arduino
+
+
+# Lesson 2 Making traffic lights
+Concepts
+1. Resistors (Ohms law)
+2. Breadboard
+3. LEDs
+4. Switch
+
+Components:
+- LED x 3
+- Resistors x 3 (minimum)
 - Switch
 - Arduino
 - Breadboard 
 - Wiring
 
-# Lesson 2 Sensors
+# Lesson 3 Sensors
 1. Distance sensor robot eyes.
 2. Components.
 - robot eyes
@@ -24,7 +37,7 @@ _ other sensors.
 - Wiring
 - resistors
 
-# Lesson 3 Motora
+# Lesson 4 Motors
 1. Create a fan.
 2. Code the fan to invert and change diresction.
 3. Components.
