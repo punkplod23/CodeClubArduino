@@ -34,17 +34,16 @@ Now redraw the same circuit above and add in a switch using this symbol, where w
 
 # Q. "Why are we drawing these diagrams all the time? I want to work with the wires..."
 # A. A diagram helps you to plan out what you want to do in advance.  It helps to
-1 	Stop you from breaking components
-2 	Spot errors
-3 	Even prevent you getting an electric shock! 
-4 	Diagrams also mean that others can follow your work and copy it.
-
-6  Adding a switch to your circuit
+1. 	Stop you from breaking components
+2. 	Spot errors
+3. 	Even prevent you getting an electric shock! 
+4. 	Diagrams also mean that others can follow your work and copy it.
+6.  Adding a switch to your circuit
 Now try to follow your diagram you made and add a switch to your circuit you are building - What happens when you connect the switch in different places on the circuit?
 Now we have a switch working, let's now add the motor to the circuit.  If we had added the motor before the switch, we could have never turned it off! 
-7  Adding a motor to the circuit
+7.  Adding a motor to the circuit
 At this point your circuit will work and the motor will be able to be switched off and on by you at the switch
-8  Turning the motor round
+8.  Turning the motor round
 Now, we already know from last week that the led only works one way so what about the motor?
 Try connecting the positive and negative wires the other way round on the motor what happens to the way it moves? Why do you think this is?
 
