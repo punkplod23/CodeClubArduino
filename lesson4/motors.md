@@ -14,6 +14,7 @@ In this diagram, positive wires (+) carry volts to components and negative (-) w
 Now let's change the circuit to add a motor that turns when the LED blinks on...
 # 2 – Adding a motor
 Add the motor in the diagram below, the symbol for a motor is:
+
 ![Circuit](circuit2.png)
 <img src='https://github.com/punkplod23' />
 
