@@ -3,6 +3,7 @@
 # Working with Motors
 
 Last week it was Led’s, this week it's motors. Now you have built your first circuits, it’s time to show you how to draw these on paper to help you understand them.
+
 # 1 – Circuit Diagrams
 All electrical components including Leds and motors can be represented in a special type of drawing called a circuit diagram. We use a circuit diagram to make a map of how to build the circuit for other people to use.
 If you remember the blinking led project from last week, here is the circuit diagram for that – remember, the blinking of the LED was controlled by the Arduino.
@@ -14,14 +15,19 @@ Add the motor in the diagram below, the symbol for a motor is:
  
 # 3 – Positive and Negative Wires
 Like many electrical components a motor has only two wires...positive and negative. Confusingly there are many ways to refer to the same thing and here are some of the most common. ..
+
 Live, Positive, red, plus, all refer to the outgoing part of the circuit and this side of the circuit carries voltage into the components 
+
 Earth, ground, black, negative, minus all refer to the incoming part of the circuit and carry voltage away from the components.
 
 # 4 - Voltage
+
 What is voltage? Well, for most of our circuits we make we will be using 5 volts. Think of voltage as the water moving through a pipe...without water in the pipe nothing will work. 
 Now take a look at the circuit diagrams above again, they all have one thing in common. The wires are shown by a continuous line and if this line is broken, the circuit will stop working. 
+
 A switch like those you see on your battery powered toys works this way, turning the switch off breaks the line on the circuit diagram and the circuit stops working.
-5 – Adding a Switch to the circuit diagram
+
+# 5 – Adding a Switch to the circuit diagram
 Now redraw the same circuit above and add in a switch using this symbol, where would you put the switch in the circuit so it turned the circuit off and on?
  
 
