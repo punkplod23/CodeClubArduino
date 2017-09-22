@@ -34,7 +34,9 @@ A switch like those you see on your battery powered toys works this way, turning
 
 # 5 – Adding a Switch to the circuit diagram
 Now redraw the same circuit above and add in a switch using this symbol, where would you put the switch in the circuit so it turned the circuit off and on?
- 
+
+![Circuit](circuit3.png)
+<img src='https://github.com/punkplod23' />
 
 
 # Q. "Why are we drawing these diagrams all the time? I want to work with the wires..."
