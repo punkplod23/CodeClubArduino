@@ -8,7 +8,9 @@ Last week it was Led’s, this week it's motors. Now you have built your first c
 All electrical components including Leds and motors can be represented in a special type of drawing called a circuit diagram. We use a circuit diagram to make a map of how to build the circuit for other people to use.
 If you remember the blinking led project from last week, here is the circuit diagram for that – remember, the blinking of the LED was controlled by the Arduino.
 In this diagram, positive wires (+) carry volts to components and negative (-) wires carry volts away from components
- 
+ ![Circuit](circuit1.png)
+<img src='https://github.com/punkplod23' />
+
 Now let's change the circuit to add a motor that turns when the LED blinks on...
 # 2 – Adding a motor
 Add the motor in the diagram below, the symbol for a motor is:
