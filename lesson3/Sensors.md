@@ -1,4 +1,4 @@
-''''/*
+```/*
  HC-SR04 Ping distance sensor]
  VCC to arduino 5v GND to arduino GND
  Echo to Arduino pin 13 Trig to Arduino pin 12
@@ -63,4 +63,4 @@ void loop() {
     Serial.println(" cm");
   }
   delay(500);
-}'''
+}```
