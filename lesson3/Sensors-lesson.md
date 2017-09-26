@@ -1,3 +1,4 @@
+```
 #include <NewPing.h>
  
 #define TRIGGER_PIN  10
@@ -16,3 +17,4 @@ void loop() {
   Serial.print(sonar.ping_cm());
   Serial.println("cm");
 }
+```
